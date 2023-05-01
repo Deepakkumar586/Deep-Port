@@ -1,0 +1,100 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+.about-me{
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background:linear-gradient(45deg,transparent, #FF91A4,transparent);
+    display: grid;
+    place-items:center;
+}
+.about-image{
+    border-radius: 2rem;
+    width: 25rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: all  400ms ease;
+}
+.about-image:hover{
+    transform: rotate(0deg);
+}
+.about-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    
+
+}
+.about-card{
+    background-color: #FF0080;
+    border:1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    
+}
+.about-card:hover{
+    background-color: #E60026;
+    color: white;
+    cursor: default;
+}
+.about-icon{
+    color: aliceblue;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+
+}
+.about-card small{
+    font-size: 0.8rem ;
+    /* color: white; */
+}
+.about-card h3{
+    font-size: 0.95rem;
+}
+.about-content p{
+    margin: 2rem 0 2.6rem;
+    
+}
+/* --------MEDIA QURIES (MEDIUM DEVICES) */
+
+@media screen and (max-width:1024px) {
+    .about-container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .about-me{
+        width: 30%;
+        margin: 4rem auto 5rem;
+
+    }
+    .about-content p {
+        margin: 3rem 0 1.9rem;
+    }
+   
+  }
+  
+  
+  /* --------MEDIA QURIES (SMALL DEVICES) */
+  
+  @media screen and (max-width:600px) {
+    .about-me{
+        width: 50%;
+        margin: 3rem auto 3rem;
+        
+    }
+    .about-cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+
+    }
+    .about-content{
+        text-align: center;
+    }
+    .about-content p {
+        margin: 1.5rem 0;
+    }
+    
+  }
