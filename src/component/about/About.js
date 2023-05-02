@@ -13,7 +13,7 @@ const About = () => {
             <div className='container about-container'>
                 <div className='about-me'>
                     <div className='about-image'>
-                        <img src={AboutImage} alt='about-image' style={{ width: '220px', height: '300px' }} />
+                        <img src={AboutImage} alt='about-image' style={{ width: '220px', height: '280px' }} />
                     </div>
 
                 </div>
@@ -40,7 +40,7 @@ const About = () => {
 
 
                     </div>
-                    <p className='about-content'>About</p>
+                    <p className='about-content'>Innovative Front End Developer  building and maintaining responsive websites in the recruiting industry. Proficient in HTML, CSS,JavaScript and React.Js,Tailwind,Bootstrap; plus modern libraries and frameworks. Passionate about usability and possess working knowledge of React Native</p>
                     <a href='#contact' className='btn btn-primary'> let's Talk</a>
                 </div>
             </div>

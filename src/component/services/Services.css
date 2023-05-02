@@ -1,0 +1,28 @@
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.service{
+    background-color: gray;
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid transparent;
+    height: fit-content;
+    transition: all 400ms;
+}
+.service:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+.service-head{
+    background-color: aqua;
+    padding: 2rem;
+    border-radius:  0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+
+}
+.service-head h3{
+    color: rgb(47, 3, 180);
+    font-size: 1rem;
+    text-align: center;
+}

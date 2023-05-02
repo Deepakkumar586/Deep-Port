@@ -14,7 +14,7 @@
   /* depend on screen size */
   --container-width-lg:75%;
   --container-width-md:86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 
 }
 html{
@@ -30,7 +30,8 @@ body {
   /* background-image:url(../src/assets/bg-texture.png); */
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background-color:azure;
+  /* background-color:rgb(21, 21, 21);
+  color: aliceblue; */
 }
 
 
@@ -45,13 +46,17 @@ body {
 }
 h1,h2,h3,h4,h5{
   font-weight: 500;
+  /* color: aliceblue; */
+
+  
+  
 }
 h1{
   font-size: 2.5rem;
 }
 section{
-  margin-top: 8rem;
-  height: 100vh;
+  margin-top: 1rem;
+  /* height: 100vh; */
 }
 section h2,section h5{
   text-align: center;
@@ -61,9 +66,9 @@ section h2{
   margin-bottom: 3rem;
 }
 
-.text-light{
+/* .text-light{
   color: transparent;
-}
+} */
 a{
   transition: all 400ms ease;
 }
@@ -78,6 +83,7 @@ a:hover{
   cursor: pointer;
   border: 1px solid gray;
   transition: all 400ms ease;
+  color: rgb(17, 17, 17);
 }
 .btn:hover{
   color:rgb(240, 236, 236);
@@ -87,8 +93,9 @@ a:hover{
 
 }
 .btn-primary{
-  /* background-color: #FB6F92; */
-  color: rgb(8, 8, 8);
+  background-color: #FB6F92;
+  /* color: rgb(8, 8, 8); */
+  /* color: aliceblue; */
 
 }
 img{
@@ -105,7 +112,7 @@ img{
     width: var(--container-width-md);
   }
   section{
-    margin-top: 6rem;
+    margin-top: 1rem;
   }
 }
 
