@@ -1,0 +1,52 @@
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
+}
+.portfolio-item{
+    background-color: cadetblue;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all 400ms ease;
+}
+.portfolio-item:hover{
+    border-color: cadetblue;
+    background: transparent;
+}
+.portfolio-item-img{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.portfolio-item h3{
+    margin: 1.2rem 0 2rem;
+}
+.portfolio-item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom:2px ;
+    text-align: center;
+    justify-content: center;
+}
+
+/* --------MEDIA QURIES (MEDIUM DEVICES) */
+
+@media screen and (max-width:1024px) {
+    .portfolio-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+
+    
+  }
+  
+  
+  /* --------MEDIA QURIES (SMALL DEVICES) */
+  
+  @media screen and (max-width:600px) {
+    .portfolio-container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+  }

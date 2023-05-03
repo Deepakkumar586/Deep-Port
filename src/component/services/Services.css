@@ -22,7 +22,46 @@
 
 }
 .service-head h3{
-    color: rgb(47, 3, 180);
+    color: rgb(221, 2, 228);
     font-size: 1rem;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
+.service-list{
+    padding: 2rem;
+}
+.service-list li{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+.service_list-icon{
+    color: white;
+    margin-top: 2px;
+}
+.service-list p{
+    font-size: 0.9rem;
+}
+/* --------MEDIA QURIES (MEDIUM DEVICES) */
+
+@media screen and (max-width:1024px) {
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .service{
+        height: auto;
+    }
+  }
+  
+  
+  /* --------MEDIA QURIES (SMALL DEVICES) */
+  
+  @media screen and (max-width:600px) {
+    .services-container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+  }

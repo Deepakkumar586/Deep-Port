@@ -4,6 +4,7 @@ import ME from '../../assets/Aryan.jpg'
 import HeaderSocials from './HeaderSocials'
 import './Header.css'
 
+
 const Header = () => {
     return (
         <header>

@@ -27,9 +27,10 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   line-height: 1.7;
+
   /* background-image:url(../src/assets/bg-texture.png); */
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+ 
+  
   /* background-color:rgb(21, 21, 21);
   color: aliceblue; */
 }
