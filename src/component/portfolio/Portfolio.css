@@ -5,10 +5,11 @@
 }
 .portfolio-item{
     background-color: cadetblue;
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: all 400ms ease;
+
 }
 .portfolio-item:hover{
     border-color: cadetblue;
@@ -19,7 +20,9 @@
     overflow: hidden;
 }
 .portfolio-item h3{
-    margin: 1.2rem 0 2rem;
+    /* margin: 1.2rem 0 2rem; */
+    margin: 1rem  1rem;
+
 }
 .portfolio-item-cta{
     display: flex;

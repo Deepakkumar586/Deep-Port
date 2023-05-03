@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Satisfy&display=swap');
 header{
     height: 120vh;
     padding-top: 7rem;
@@ -8,6 +9,11 @@ header{
    
     
 
+}
+.styling{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
 }
 .header-container{
     text-align: center;
@@ -20,7 +26,7 @@ header{
 .cta{
     display: flex;
     gap: 1.2rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     justify-content: center;
 }
 
