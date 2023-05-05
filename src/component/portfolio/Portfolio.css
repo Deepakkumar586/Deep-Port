@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Satisfy&display=swap');
+
+span{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size:3rem;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
 .portfolio-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem;
 }
 .portfolio-item{
-    background-color: cadetblue;
+    background-color:#DBD468;
     padding: 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;

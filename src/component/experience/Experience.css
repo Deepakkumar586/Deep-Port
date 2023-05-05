@@ -6,7 +6,7 @@
 
 }
 .experience_container div {
-    background-color: #BF00FF;
+    background-color: #ff1654;
     padding: 2rem 2rem;
     border-radius: 3rem;
     /* border: 1px solid transparent; */
@@ -15,7 +15,7 @@
 
 }
 .experience_container div:hover{
-    background-color: #BF00FF;
+    background-color: #ff1654;
     /* background-color: transparent; */
     /* border-color: aliceblue; */
     cursor: default;

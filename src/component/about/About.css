@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Satisfy&display=swap');
 .about-container{
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
    
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size:3rem;
 }
 .about-me{
     width: 50%;
@@ -36,15 +42,16 @@ section{
 
 }
 .about-card{
-    background-color: #FF0080;
+    background-color: #ff1654;
     border:1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    color: whitesmoke;
     
 }
 .about-card:hover{
-    background-color: #E60026;
+    background-color:#ff1654;
     color: white;
     cursor: default;
 }

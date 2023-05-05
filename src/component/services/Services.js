@@ -5,7 +5,7 @@ import { BsFillCheckCircleFill } from 'react-icons/bs'
 const Services = () => {
     return (
         <section id='service'>
-            <h5>What i Offer</h5>
+
             <h2>Services</h2>
 
             <div className='container services-container'>
@@ -47,7 +47,7 @@ const Services = () => {
                 </article>
 
 
-                <article className='service'>
+                {/* <article className='service'>
                     <div className='service-head'>
                         <h3>UI/UX Design</h3>
                     </div>
@@ -82,7 +82,7 @@ const Services = () => {
                         </li>
 
                     </ul>
-                </article>
+                </article> */}
 
 
                 <article className='service'>

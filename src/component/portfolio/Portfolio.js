@@ -2,9 +2,12 @@ import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/Redmi.jpg'
 import IMG2 from '../../assets/Shoping.jpg'
-import IMG3 from '../../assets/Redmi.jpg'
+import IMG3 from '../../assets/Fitness.jpg'
 import IMG4 from '../../assets/Redmi.jpg'
 import IMG5 from '../../assets/Redmi.jpg'
+<script>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Satisfy&display=swap');
+</script>
 
 const Portfolio = () => {
     const data = [
@@ -19,21 +22,21 @@ const Portfolio = () => {
             id: 2,
             image: IMG2,
             title: 'Shoping Cart',
-            github: 'https://github.com',
+            github: 'https://github.com/Deepakkumar586/Shopping-cart-',
         },
 
         {
             id: 3,
             image: IMG3,
-            title: 'Weather Application',
-            github: 'https://github.com',
+            title: 'Fitness-Club',
+            github: 'https://github.com/Deepakkumar586/Fitness-club',
 
         },
         {
             id: 4,
-            image: IMG4,
+            image: 'file:///C:/Users/Deepak%20kumar/Downloads/Weather.webp',
             title: 'Weather Application',
-            github: 'https://github.com',
+            github: 'https://github.com/Deepakkumar586/Weather-App',
         },
         {
             id: 5,
@@ -44,7 +47,7 @@ const Portfolio = () => {
     ]
     return (
         <section id='project'>
-            <h3 style={{ textAlign: "center", marginBottom: '2rem' }}>My Projects</h3>
+            <span style={{ textAlign: "center", marginBottom: '2rem' }}>My Projects</span>
 
             <div className='container portfolio-container'>
                 {
