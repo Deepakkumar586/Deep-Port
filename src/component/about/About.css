@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    margin-left: 287px;
    
 }
 h2{
@@ -10,38 +11,39 @@ h2{
     font-family: 'Satisfy', cursive;
     font-size:3rem;
 }
-.about-me{
+/* .about-me{
     width: 50%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 2/1;
     border-radius: 2rem;
     background:linear-gradient(45deg,transparent, #FF91A4,transparent);
     display: grid;
     place-items:center;
     margin-left: 10rem;
    
-}
+} */
 section{
     margin-top: 4rem;
 }
-.about-image{
+     /* .about-image{
     border-radius: 2rem;
-    /* width: 25rem; */
+    width: 25rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: all  400ms ease;
     
-}
-.about-image:hover{
+     } */
+/* .about-image:hover{
     transform: rotate(0deg);
-}
-.about-cards{
+} */
+/* .about-cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
+    width: 200px;
     
 
-}
-.about-card{
+} */
+/* .about-card{
     background-color: #ff1654;
     border:1px solid transparent;
     border-radius: 1rem;
@@ -49,35 +51,43 @@ section{
     text-align: center;
     color: whitesmoke;
     
-}
-.about-card:hover{
+} */
+/* .about-card:hover{
     background-color:#ff1654;
     color: white;
     cursor: default;
-}
-.about-icon{
+} */
+/* .about-icon{
     color: aliceblue;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 
-}
-.about-card small{
+} */
+/* .about-card small{
     font-size: 0.8rem ;
-    /* color: white; */
-}
-.about-card h3{
+    color: white;
+} */
+/* .about-card h3{
     font-size: 0.95rem;
-}
-.about-content p{
-    margin: 2rem 0 2.6rem;
+} */
+.about-content{
+    margin: 1rem 15rem;
+    text-align: center;
     
+} 
+.about-content p{
+    margin: 1rem auto;
 }
+/* .about-content .btn-primary{
+   margin: ;
+} */
 /* --------MEDIA QURIES (MEDIUM DEVICES) */
 
 @media screen and (max-width:1024px) {
     .about-container{
         grid-template-columns: 1fr;
         gap: 0;
+        margin-left: 30px;
     }
     .about-me{
         width: 30%;
@@ -85,7 +95,7 @@ section{
 
     }
     .about-content p {
-        margin: 3rem 0 1.9rem;
+        margin: 3rem  -10rem;
     }
    
   }
@@ -94,6 +104,9 @@ section{
   /* --------MEDIA QURIES (SMALL DEVICES) */
   
   @media screen and (max-width:600px) {
+    .about-container{
+        margin-left: 10px;
+    }
     .about-me{
         width: 50%;
         margin: 3rem auto 5rem;
@@ -104,11 +117,11 @@ section{
         gap: 1rem;
 
     }
-    .about-content{
+    /* .about-content{
         text-align: center;
-    }
+    } */
     .about-content p {
-        margin: 1.5rem 0;
+        margin: 1rem -14rem;
     }
     
   }

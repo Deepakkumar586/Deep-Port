@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Satisfy&display=swap');
 header{
-    height: 120vh;
+    height: 130vh;
     padding-top: 7rem;
     overflow: hidden;
     /* background-color: #E7E0C4; */
@@ -53,9 +53,9 @@ header{
 
 /* ---------IMAGE--------- */
 .me{
-    background:linear-gradient(rgb(101, 211, 211),transparent);
+    /* background:linear-gradient(rgb(101, 211, 211),transparent); */
     width: 22rem;
-    height: 30rem;
+    height: 40rem;
     position:absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;

@@ -85,7 +85,7 @@ const Services = () => {
                 </article> */}
 
 
-                <article className='service'>
+                {/* <article className='service'>
                     <div className='service-head'>
                         <h3>App Development</h3>
                     </div>
@@ -120,7 +120,7 @@ const Services = () => {
                         </li>
 
                     </ul>
-                </article>
+                </article> */}
             </div>
 
 

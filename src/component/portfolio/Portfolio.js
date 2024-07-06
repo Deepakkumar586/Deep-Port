@@ -1,9 +1,9 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/Redmi.jpg'
+import IMG1 from '../../assets/xiaomi.jpg'
 import IMG2 from '../../assets/Shoping.jpg'
 import IMG3 from '../../assets/Fitness.jpg'
-import IMG4 from '../../assets/Redmi.jpg'
+import IMG4 from '../../assets/MI.jpg'
 import IMG5 from '../../assets/Redmi.jpg'
 <script>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Satisfy&display=swap');
@@ -34,13 +34,13 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            image: 'file:///C:/Users/Deepak%20kumar/Downloads/Weather.webp',
+            image: IMG5,
             title: 'Weather Application',
             github: 'https://github.com/Deepakkumar586/Weather-App',
         },
         {
             id: 5,
-            image: IMG5,
+            image: IMG1,
             title: 'Weather Application',
             github: 'https://github.com',
         }
